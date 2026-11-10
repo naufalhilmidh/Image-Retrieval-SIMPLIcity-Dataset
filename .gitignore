@@ -1,0 +1,11 @@
+# Python & Cache
+__pycache__/
+*.pyc
+outputs/.cache/
+.ipynb_checkpoints/
+
+# Model Checkpoints / Weights besar
+outputs/checkpoints/*.pt
+outputs/checkpoints/*.pth
+*.pth
+*.pt

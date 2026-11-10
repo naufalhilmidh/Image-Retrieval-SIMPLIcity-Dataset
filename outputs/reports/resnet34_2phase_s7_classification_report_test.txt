@@ -1,0 +1,21 @@
+Run: resnet34_2phase_s7
+Model: resnet34
+Split: test
+Akurasi: 0.9650  Top-3: 0.9950
+
+              precision    recall  f1-score   support
+
+      people     0.9048    0.9500    0.9268        20
+       beach     0.8696    1.0000    0.9302        20
+    building     1.0000    0.8000    0.8889        20
+         bus     1.0000    1.0000    1.0000        20
+    dinosaur     1.0000    1.0000    1.0000        20
+    elephant     1.0000    1.0000    1.0000        20
+      flower     0.9524    1.0000    0.9756        20
+       horse     0.9524    1.0000    0.9756        20
+    mountain     1.0000    0.9500    0.9744        20
+        food     1.0000    0.9500    0.9744        20
+
+    accuracy                         0.9650       200
+   macro avg     0.9679    0.9650    0.9646       200
+weighted avg     0.9679    0.9650    0.9646       200

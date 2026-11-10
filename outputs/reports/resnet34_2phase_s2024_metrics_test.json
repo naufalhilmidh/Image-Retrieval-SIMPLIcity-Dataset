@@ -1,0 +1,200 @@
+{
+  "run_id": "resnet34_2phase_s2024",
+  "model": "resnet34",
+  "split": "test",
+  "image_size": 224,
+  "n_samples": 200,
+  "accuracy": 0.965,
+  "top3_accuracy": 0.99,
+  "macro_precision": 0.9668,
+  "macro_recall": 0.965,
+  "macro_f1": 0.9649,
+  "weighted_precision": 0.9668,
+  "weighted_recall": 0.965,
+  "weighted_f1": 0.9649,
+  "per_class": {
+    "people": {
+      "precision": 0.9048,
+      "recall": 0.95,
+      "f1": 0.9268,
+      "support": 20
+    },
+    "beach": {
+      "precision": 0.8636,
+      "recall": 0.95,
+      "f1": 0.9048,
+      "support": 20
+    },
+    "building": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1": 0.9189,
+      "support": 20
+    },
+    "bus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "dinosaur": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "elephant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "flower": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "horse": {
+      "precision": 0.9524,
+      "recall": 1.0,
+      "f1": 0.9756,
+      "support": 20
+    },
+    "mountain": {
+      "precision": 0.9474,
+      "recall": 0.9,
+      "f1": 0.9231,
+      "support": 20
+    },
+    "food": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    }
+  },
+  "confusion_matrix": [
+    [
+      19,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20
+    ]
+  ],
+  "checkpoint": "outputs\\checkpoints\\resnet34_2phase_s2024.pt"
+}

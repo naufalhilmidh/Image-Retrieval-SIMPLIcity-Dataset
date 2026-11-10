@@ -1,0 +1,68 @@
+{
+  "protocol": "frozen-backbone linear probe, 224px, ImageNet weights",
+  "image_size": 224,
+  "splits": {
+    "train": 50,
+    "validation": 30,
+    "test": 20
+  },
+  "results": [
+    {
+      "model": "resnet34",
+      "feature_dim": 512,
+      "params_total": 21284672,
+      "val_accuracy": 0.99,
+      "test_accuracy": 0.98,
+      "seconds": 5.3
+    },
+    {
+      "model": "efficientnet_b0",
+      "feature_dim": 1280,
+      "params_total": 4007548,
+      "val_accuracy": 0.9867,
+      "test_accuracy": 0.98,
+      "seconds": 4.9
+    },
+    {
+      "model": "densenet121",
+      "feature_dim": 1024,
+      "params_total": 6953856,
+      "val_accuracy": 0.9867,
+      "test_accuracy": 0.98,
+      "seconds": 8.1
+    },
+    {
+      "model": "convnext_tiny",
+      "feature_dim": 768,
+      "params_total": 27820128,
+      "val_accuracy": 0.9867,
+      "test_accuracy": 0.985,
+      "seconds": 7.8
+    },
+    {
+      "model": "resnet50",
+      "feature_dim": 2048,
+      "params_total": 23508032,
+      "val_accuracy": 0.9833,
+      "test_accuracy": 0.98,
+      "seconds": 7.4
+    },
+    {
+      "model": "mobilenet_v3_large",
+      "feature_dim": 1280,
+      "params_total": 4202032,
+      "val_accuracy": 0.9833,
+      "test_accuracy": 0.995,
+      "seconds": 28.5
+    },
+    {
+      "model": "resnet18",
+      "feature_dim": 512,
+      "params_total": 11176512,
+      "val_accuracy": 0.9767,
+      "test_accuracy": 0.965,
+      "seconds": 5.0
+    }
+  ],
+  "best": "resnet34"
+}

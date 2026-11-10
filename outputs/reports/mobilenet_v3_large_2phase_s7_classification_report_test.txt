@@ -1,0 +1,21 @@
+Run: mobilenet_v3_large_2phase_s7
+Model: mobilenet_v3_large
+Split: test
+Akurasi: 0.9900  Top-3: 1.0000
+
+              precision    recall  f1-score   support
+
+      people     0.9524    1.0000    0.9756        20
+       beach     0.9500    0.9500    0.9500        20
+    building     1.0000    0.9500    0.9744        20
+         bus     1.0000    1.0000    1.0000        20
+    dinosaur     1.0000    1.0000    1.0000        20
+    elephant     1.0000    1.0000    1.0000        20
+      flower     1.0000    1.0000    1.0000        20
+       horse     1.0000    1.0000    1.0000        20
+    mountain     1.0000    1.0000    1.0000        20
+        food     1.0000    1.0000    1.0000        20
+
+    accuracy                         0.9900       200
+   macro avg     0.9902    0.9900    0.9900       200
+weighted avg     0.9902    0.9900    0.9900       200

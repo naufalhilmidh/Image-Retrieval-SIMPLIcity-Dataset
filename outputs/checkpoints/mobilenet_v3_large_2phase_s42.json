@@ -1,0 +1,29 @@
+{
+  "run_id": "mobilenet_v3_large_2phase_s42",
+  "model": "mobilenet_v3_large",
+  "pretrained": true,
+  "epochs_requested": 30,
+  "head_epochs": 8,
+  "epochs_run": 30,
+  "best_epoch": 22,
+  "best_val_loss": 0.577055,
+  "batch_size": 32,
+  "image_size": 224,
+  "lr_head": 0.001,
+  "lr_finetune": 0.0001,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.1,
+  "dropout": 0.3,
+  "augment": "standard",
+  "patience": 8,
+  "unfreeze_blocks": null,
+  "seed": 42,
+  "amp": true,
+  "device": "cuda",
+  "train_seconds": 159.4,
+  "splits": {
+    "train": 500,
+    "validation": 300
+  },
+  "history_csv": "outputs\\logs\\mobilenet_v3_large_2phase_s42_history.csv"
+}

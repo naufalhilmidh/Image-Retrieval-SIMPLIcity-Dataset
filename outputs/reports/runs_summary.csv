@@ -1,0 +1,8 @@
+run_id,model,pretrained,epochs_run,best_epoch,best_val_loss,best_val_acc,test_acc,test_macro_f1,test_top3,train_seconds,has_figure
+efficientnet_b0_2phase_s42,efficientnet_b0,True,30,25,0.59066,0.973333,0.97,0.9698,0.995,190.5,True
+mobilenet_v3_large_2phase_s2024,mobilenet_v3_large,True,30,30,0.5727,0.983333,0.975,0.9747,1.0,185.3,True
+mobilenet_v3_large_2phase_s42,mobilenet_v3_large,True,30,22,0.577055,0.986667,0.995,0.995,1.0,159.4,True
+mobilenet_v3_large_2phase_s7,mobilenet_v3_large,True,30,28,0.5756,0.986667,0.99,0.99,1.0,194.1,True
+resnet34_2phase_s2024,resnet34,True,30,23,0.603003,0.963333,0.965,0.9649,0.99,190.7,True
+resnet34_2phase_s42,resnet34,True,30,25,0.597748,0.966667,0.965,0.9651,0.99,206.1,True
+resnet34_2phase_s7,resnet34,True,28,20,0.591225,0.973333,0.965,0.9646,0.995,219.1,True

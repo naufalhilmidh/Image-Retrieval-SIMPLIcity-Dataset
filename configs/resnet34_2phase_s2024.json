@@ -1,0 +1,29 @@
+{
+  "run_id": "resnet34_2phase_s2024",
+  "model": "resnet34",
+  "pretrained": true,
+  "epochs_requested": 30,
+  "head_epochs": 8,
+  "epochs_run": 30,
+  "best_epoch": 23,
+  "best_val_loss": 0.603003,
+  "batch_size": 32,
+  "image_size": 224,
+  "lr_head": 0.001,
+  "lr_finetune": 0.0001,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.1,
+  "dropout": 0.3,
+  "augment": "standard",
+  "patience": 8,
+  "unfreeze_blocks": null,
+  "seed": 2024,
+  "amp": true,
+  "device": "cuda",
+  "train_seconds": 190.7,
+  "splits": {
+    "train": 500,
+    "validation": 300
+  },
+  "history_csv": "outputs\\logs\\resnet34_2phase_s2024_history.csv"
+}

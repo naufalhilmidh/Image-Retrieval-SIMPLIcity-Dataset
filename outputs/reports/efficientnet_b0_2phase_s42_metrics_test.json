@@ -1,0 +1,200 @@
+{
+  "run_id": "efficientnet_b0_2phase_s42",
+  "model": "efficientnet_b0",
+  "split": "test",
+  "image_size": 224,
+  "n_samples": 200,
+  "accuracy": 0.97,
+  "top3_accuracy": 0.995,
+  "macro_precision": 0.9722,
+  "macro_recall": 0.97,
+  "macro_f1": 0.9698,
+  "weighted_precision": 0.9722,
+  "weighted_recall": 0.97,
+  "weighted_f1": 0.9698,
+  "per_class": {
+    "people": {
+      "precision": 0.9524,
+      "recall": 1.0,
+      "f1": 0.9756,
+      "support": 20
+    },
+    "beach": {
+      "precision": 0.8696,
+      "recall": 1.0,
+      "f1": 0.9302,
+      "support": 20
+    },
+    "building": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1": 0.9189,
+      "support": 20
+    },
+    "bus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "dinosaur": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "elephant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "flower": {
+      "precision": 0.9524,
+      "recall": 1.0,
+      "f1": 0.9756,
+      "support": 20
+    },
+    "horse": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 20
+    },
+    "mountain": {
+      "precision": 0.9474,
+      "recall": 0.9,
+      "f1": 0.9231,
+      "support": 20
+    },
+    "food": {
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1": 0.9744,
+      "support": 20
+    }
+  },
+  "confusion_matrix": [
+    [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      17,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      19
+    ]
+  ],
+  "checkpoint": "outputs\\checkpoints\\efficientnet_b0_2phase_s42.pt"
+}
